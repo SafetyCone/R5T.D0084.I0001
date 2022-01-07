@@ -1,0 +1,2 @@
+# R5T.D0084.I0001
+An IProjectRepository-based IAllProjectDirectoryPathsProvider implementation.
