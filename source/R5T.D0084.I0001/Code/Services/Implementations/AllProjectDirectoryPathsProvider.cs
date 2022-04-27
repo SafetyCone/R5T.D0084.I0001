@@ -1,16 +1,16 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
 using R5T.Lombardy;
 
 using R5T.D0084.D001;
-using R5T.D0101;
+using R5T.D0101;using R5T.T0064;
 
 
 namespace R5T.D0084.I0001
-{
-    public class AllProjectDirectoryPathsProvider : IAllProjectDirectoryPathsProvider
+{[ServiceImplementationMarker]
+    public class AllProjectDirectoryPathsProvider : IAllProjectDirectoryPathsProvider,IServiceImplementation
     {
         private IProjectRepository ProjectRepository { get; }
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
