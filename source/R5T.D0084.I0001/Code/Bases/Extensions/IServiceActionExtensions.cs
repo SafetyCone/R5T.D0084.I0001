@@ -13,7 +13,7 @@ namespace R5T.D0084.I0001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="AllProjectDirectoryPathsProvider"/> implementation of <see cref="IAllProjectDirectoryPathsProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="AllProjectDirectoryPathsProvider"/> implementation of <see cref="IAllProjectDirectoryPathsProvider"/> as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<IAllProjectDirectoryPathsProvider> AddAllProjectDirectoryPathsProviderAction(this IServiceAction _,
             IServiceAction<IProjectRepository> projectRepositoryAction,
