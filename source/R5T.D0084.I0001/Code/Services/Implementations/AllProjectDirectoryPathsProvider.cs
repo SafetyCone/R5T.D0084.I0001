@@ -31,7 +31,7 @@ namespace R5T.D0084.I0001
             var output = allProjectFilePaths
                 .Select(xFilePath => this.StringlyTypedPathOperator.GetDirectoryPathForFilePath(xFilePath))
                 .Distinct()
-                .Now();
+                .Now_OLD();
 
             return output;
         }
